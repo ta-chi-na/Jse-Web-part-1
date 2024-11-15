@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .green-box {
+            background-color: #4CAF50;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .content-below {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .ai-image {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .ai-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SunSetBar.AI/Acrylic</h1>
+        <p>This page shows all my Art Work</p>
+        
+        <!-- Added image section -->
+        <div class="image-gallery">
+            <img src="/yourbodyyourchoice.jpg" alt="AI Image 1" class="ai-image">
+            <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/jse-xzqyss/assets/7z0j58gz55j8/jse.png" alt="AI Image 2" class="ai-image">
+            <img src="/bejeweled.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/the_crown.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/pinkpanther.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/colour_me_rainbow.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/the_jewel.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/SpaceWear.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/oil_tree.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/eyes.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/yellowstature.jpg" alt="AI Image 3" class="ai-image">
+            <img src="/outcomesmotion.jpg" alt="AI Image 3" class="ai-image">
+        </div>
+    </div>
+</body>
+</html>
